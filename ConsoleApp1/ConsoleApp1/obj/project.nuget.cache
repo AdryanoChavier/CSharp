@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kDWIOQ6a8muZhU33c+E392GlOFXk9SJ0SaCtw/U/h9DuLjG318VLaXzyLua+0cA9DFrMZS6syGIZlfTKwdbvYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adrya\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adrya\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.4\\microsoft.dotnet.ilcompiler.8.0.4.nupkg.sha512",
+    "C:\\Users\\adrya\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\adrya\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.4\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

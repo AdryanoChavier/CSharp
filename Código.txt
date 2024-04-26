@@ -1,0 +1,115 @@
+string[] v = Console.ReadLine().Split(' ');
+string a = v [0];
+string b = v [1];
+string c = v [2];
+/////////////////////////
+
+
+using System.Globalization;
+
+
+int n1 = int.Parse(Console.ReadLine());
+char ch = char.Parse(Console.ReadLine());
+double n2 = double.Parse(Console.ReadLine(), Culture.InvariantCulture);
+
+
+string[] vet = Console.ReadLine().Split(' ');
+string nome = vet[0];
+char sexo = char.Parse(vet[1]);
+int idade = int.Parse(vet[2]);
+double altura = double.Parse(vet[0], Culture.InvarianCulture);
+
+
+Console.WriteLine("Você Digitou:");
+Console.WriteLine(n1);
+Console.WriteLine(ch);
+Console.WriteLine(n2);
+Console.WriteLine(nome);
+Console.WriteLine(sexo);
+Console.WriteLine(idade);
+Console.WriteLine(altura);
+//////////////////////////////////////////////////
+Tarefa
+
+
+Saida esperada
+
+Alex Green
+3 
+500.50
+Green
+21
+1.73
+
+Console.WriteLine("Digite seu nome completo: ");
+string nome = Console.ReadLine();
+Console.WriteLone("Quantos quartos tem na sua casa? ");
+int quartos = int.Parse(Console.ReadLine());
+Console.WriteLine("Entre com o preço de um produto: ");
+double n2 = double.Parse(Console.ReadLine(), Culture.InvarianCulture);
+Console.WriteLine("Na mesma linha entre com seu sobrenome, idade, altura");
+string[] vet = Console.ReadLine().Split(' ');
+string sobrenome = vet[0];
+int idade = int.Parse(vet[1]);
+double altura = double.Parse(vet[2], Culture.InvarianCulture);
+
+Console.WriteLine("Seu nome é: " + nome);
+Console.WriteLine("Tem "+ quartos + " quartos na sua casa");
+Console.WriteLine("Preço do produto é: "+ n2, Culture.InvarianCulture);
+Console.WriteLine("Seu sobrenome é: " + sobrenome);
+Console.WriteLine("Você tem: "+ idade +" anos e "+ altura +" de altura",Culture.InvarianCulture);
+
+//////////////////////////////////////////////////////
+
+A = Math.Sqrt(x);       //Variável A recebe a raiz quadrada de x
+A = Math.Pow(x,y);	//Variável A recebe o resultado de x elevado a y
+A = Math.Abs(x);	//Variável A recebe o valor absoluto de x
+
+
+
+double x = 3.0;
+double y = 4.0;
+double z = -5.0;
+double A, B, C;
+
+A = Math.Sqrt(x);
+B = Math.Sqrt(y);
+C = Math.Sqrt(25.0);
+Console.WriteLine("Raiz quadrada de " + x + " = " + A);
+Console.WriteLine("Raiz quadrada de " + y + " = " + B);
+Console.WriteLine("Raiz quadrada de 25 = " + C);
+
+A = Math.Pow(x, y);
+B = Math.Pow(x, 2;0);
+C = Math.Pow(5.0, 2.0);
+Console.WriteLine(x +" elevado a " + y + " = " + A);
+Console.WriteLine(x +" elevado ao quadrado = " + B);
+Console.WriteLine("5 elevado ao quadrado = " + C);
+
+A = Math.Abs(x);
+B = Math.Abs(y);
+C = Math.Abs(z);
+Console.WriteLine("Valor absoluto de " + x + " é " + A);
+Console.WriteLine("Valor absoluto de " + y + " é " + B);
+Console.WriteLine("Valor absoluto de " + z + " é " + C);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Tarefa 1
+
+double largura, comprimento, preco, area, precoarea;
+
+Console.WriteLine("Digite o comprimento, largura do terreno e o preço do metro quadrado (separados por espaço)");
+string[] vet = Console.ReadLine().Split(' ');
+
+comprimento = double.Parse(vet[0],CultureInfo.InvariantCulture);
+largura = double.Parse(vet[1],CultureInfo.InvariantCulture);
+preco = double.Parse(vet[2],CultureInfo.InvariantCulture);
+area = comprimento * largura 
+precoarea = area * preco;
+Console.WriteLine("Area = " + area.ToString("F2",CultureInfo.InvariantCulture));
+Console.WriteLine("Preço = " + precoarea.ToString("F2",CultureInfo.InvariantCulture));
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
